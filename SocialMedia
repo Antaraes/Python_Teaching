@@ -1,0 +1,12 @@
+CRUD
+
+Social Media
+
+create - create account, create post
+Read  - read profile , read post , read other inoformation
+Update - update profile, update post
+Delete - delete account , delete post
+
+defaultSet = CRUD
+updatesettoEcommerce = accounting
+updatesettoAI = AI

@@ -1,0 +1,118 @@
+data_dict = {
+    "employees": {
+        "John": {
+            "age": 32,
+            "department": "Data Science",
+            "salary": 75000,
+            "projects": [
+                {"project_name":"Sales Forecasting", },
+                {"project_name":"Image Classification"}
+
+            ],
+        },
+        "Mary": {
+            "age": 28,
+            "department": "Machine Learning",
+            "salary": 70000,
+            "projects": [
+                {
+                    "project_name": "Image Classification",
+                    "status": "completed",
+                    "start_date": "2021-11-01",
+                    "end_date": "2022-02-28",
+                    "team_members": ["John", "David", "Sophie"],
+                    "tasks": {
+                        "data_collection": True,
+                        "data_preprocessing": True,
+                        "model_building": True,
+                        "model_evaluation": True,
+                    },
+                },
+                {
+                    "project_name": "Anomaly Detection",
+                    "status": "completed",
+                    "start_date": "2022-09-20",
+                    "end_date": "2023-03-31",
+                    "team_members": ["Alex", "Emily"],
+                    "tasks": {
+                        "data_collection": True,
+                        "data_preprocessing": True,
+                        "model_building": True,
+                        "model_evaluation": True,
+                    },
+                },
+{
+                    "project_name": "AI Detection",
+                    "status": "completed",
+                    "start_date": "2022-09-20",
+                    "end_date": "2023-03-31",
+                    "team_members": ["Alex", "Emily"],
+                    "tasks": {
+                        "data_collection": True,
+                        "data_preprocessing": True,
+                        "model_building": True,
+                        "model_evaluation": True,
+                    },
+                },
+            ],
+        },
+
+    },
+    "departments": {
+        "Data Science": ["John", "Emily"],
+        "Machine Learning": ["Mary", "Alex", "Sophie"],
+    },
+    "company_info": {
+        "company_name": "DataTech Corp",
+        "founded": "2005-08-10",
+        "location": "New York",
+        "industry": "Data Science",
+        "website": "https://datatechcorp.com",
+    },
+}
+# #
+# #
+# # # the questions are
+# # # What is the industry of the company? #Data Science
+# # # List all the projects "John" is working on.
+# # # Which employees worked on the "Anomaly Detection" project?
+# # # Calculate the total number of projects in the company.
+# # # Find the average age of all employees.
+# #
+# # # print(data_dict['employees']['Mary']['projects'][0]['project_name'])
+# # # john_age = data_dict['employees']['John']['age']
+# # # mary_age = data_dict['employees']['Mary']['age']
+# # # average_age = int((john_age+mary_age) / 2)
+# # # print(average_age)
+# #
+# userinput = input("Enter who you want to see : ")
+# dict = data_dict.get('employees').get(userinput).get('projects') # list
+# dict = data_dict['employees'][userinput]['projects']
+# list = ['apple','orange','bacon','meat']
+# for i in dict:
+#     print(i['project_name'])
+#
+# car_dict = {'name':'marcidee',
+#                 'wheel':{
+#                     'name':'hona','price':'2000','warranty':'2 years'
+#                 },
+#                 'number_of_wheel':4,
+#                 'body':{
+#                     'door':[4,{'color':'gray'},{'frame':'deel'}]
+#                     'mirror':[6,{'warranty':'2 years'}]
+#                 },
+#                 'engine':'model2'
+#             }
+
+# print(data_dict["employees"]["Mary"]["projects"][1]["project_name"])
+# team_members = ["John","Mary","David"]
+#
+# projects = data_dict["employees"]["Mary"]["projects"][0]['team_members']
+# for i in projects:
+#     print(i)
+
+
+
+
+
+

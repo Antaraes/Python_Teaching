@@ -1,0 +1,16 @@
+datatype one as 8bit integer
+datatype two as 8bit integer
+datatype result as 8bit integer
+input one = 2
+input two = 4
+result = one + two
+
+soft
+// e-commerce
+1 dicuss client programmer designer marketing
+2 programmer leader psuecode
+3 development
+4 deply
+5 testing
+
+

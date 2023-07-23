@@ -1,0 +1,14 @@
+string is word or sentence "sting"
+number is int, float, long , short , double char
+list is Array [2 , 4, 8, 16, ] mutable
+tuple is (1, 2, 4 )    immutable
+dictionary is object {key,value} {firstname:"min"}
+set is { min , bhone }
+boolean is 0 ,1 or true, false
+null or none
+complex number (3 + 7j)
+
+Arithmetic operations
++ , - , / , % , * ,
+
+"data.txt" -> "firstname"
