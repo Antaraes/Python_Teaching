@@ -104,6 +104,12 @@
 #     elif userinput == 'number':
 
 
+dict1  = dict(name = "John", age = 36, country = "Norway")
+print(dict1)
+dict1.pop('name')
+
+print(dict1)
+
 
 
 # Country = input("Bank country")
