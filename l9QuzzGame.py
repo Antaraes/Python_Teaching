@@ -27,7 +27,6 @@ else:
         print("Incorrect")
         score -= 10
         print("Score = " + str(score))
-    # print("You got"+ score)
     print(f"You got {score}")
 
 
