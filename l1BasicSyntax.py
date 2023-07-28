@@ -15,6 +15,7 @@
 # print("FristName: ", fristname ,"\n SecondName: ", secondname , "").format()
 # print(f"Frist Name : {fristname} \n Second Name : {secondname} \n Address : {address} \n Phone Number : {phonenumber} \n Money : {money}")
 
+# user.txt -> user info -> Read -> update -> create new user -> delete
 
 
 

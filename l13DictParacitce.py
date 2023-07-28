@@ -1,4 +1,5 @@
 
+
 # #
 # #
 # # # the questions are
@@ -47,7 +48,20 @@ data_dict = {
             "salary": 75000,
             "projects": [
                 {"project_name":"Sales Forecasting", },
-                {"project_name":"Image Classification"}
+                {"project_name":"Image Classification"},
+{
+                    "project_name": "AI Detection",
+                    "status": "completed",
+                    "start_date": "2022-09-20",
+                    "end_date": "2023-03-31",
+                    "team_members": ["Alex", "Emily"],
+                    "tasks": {
+                        "data_collection": True,
+                        "data_preprocessing": True,
+                        "model_building": True,
+                        "model_evaluation": True,
+                    },
+                },
 
             ],
         },
@@ -82,19 +96,7 @@ data_dict = {
                         "model_evaluation": True,
                     },
                 },
-# {
-#                     "project_name": "AI Detection",
-#                     "status": "completed",
-#                     "start_date": "2022-09-20",
-#                     "end_date": "2023-03-31",
-#                     "team_members": ["Alex", "Emily"],
-#                     "tasks": {
-#                         "data_collection": True,
-#                         "data_preprocessing": True,
-#                         "model_building": True,
-#                         "model_evaluation": True,
-#                     },
-#                 },
+
             ],
         },
 
@@ -127,7 +129,7 @@ for i in projects_name:
 
 print(john_projects)
 
-project_count = 0
+
 # for i in mary_projects: # 3
 #     for j in john_projects: # 2
 #
@@ -141,11 +143,11 @@ project_count = 0
 #['Image Classification', 'Anomaly Detection', 'Sales Forecasting', 'Image Classification']
 
 print(projects)
-project_count = set(projects)
-list = []
-for i in project_count:
-    list.append(i)
-print(list)
+# project_count = set(projects)
+# list = []
+# for i in project_count:
+#     list.append(i)
+# print(list)
 # for i in range(len(projects)): # length
 #     start  = projects[i]
 #     if i != project_length - 1:
@@ -156,7 +158,19 @@ print(list)
 #
 #     if start != end:
 #         project_count += 1
+print("project_count is count")
+project_count = 0
+for i in projects:
+    if i not in projects[:project_count]:
+        print(projects[:project_count])
+        project_count += 1
+# for i in projects:
+#     if i in projects[:2]:
+#         print(projects[:project_count])
+#         project_count += 1
 print(f"Project count is {project_count}")
+
+projects[0:1]
 
 
 
