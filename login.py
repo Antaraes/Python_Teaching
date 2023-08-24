@@ -24,19 +24,20 @@
 
 
 def login():
-    file = open('password.txt','r')
-    username = input("Enter your username : ")
-    usernametxt = file.readline().strip()
-    if username == usernametxt:
-        print("usernmae correct")
-        password = input("Enter your password : ")
-        passwordtxt = file.readline().strip()
-        if password == passwordtxt:
-            print("password correct")
-        else:
-            print("password incorrect")
-    else:
-        print("username incorrect")
+    file = open(r"E:/password.txt",'r')
+    # username = input("Enter your username : ")
+    # usernametxt = file.readline().strip()
+    # if username == usernametxt:
+    #     print("usernmae correct")
+    #     password = input("Enter your password : ")
+    #     passwordtxt = file.readline().strip()
+    #     if password == passwordtxt:
+    #         print("password correct")
+    #     else:
+    #         print("password incorrect")
+    # else:
+    #     print("username incorrect")
+    print(file.readline())
 
 
 
@@ -46,4 +47,4 @@ def login():
 # https://www.geeksforgeeks.org/python-string-strip/
 # txt = "Welcome "
 # print(txt.strip())
-    
+login()
