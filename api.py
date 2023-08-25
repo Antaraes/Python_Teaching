@@ -48,8 +48,9 @@
 
 
 import json
+import re
 JSON_FILE = "data.json"
-
+regex = r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,7}\b'
 def load_user_data():
     try:
         with open(JSON_FILE, 'r') as f:
@@ -62,14 +63,23 @@ def load_user_data():
 
 def save_user_data(data):
     with open(JSON_FILE,'w') as f:
-        json.dump(data,f)
+        json.dump(data,f,indent=4)
 def create_user():
     username = input("Username:")
-    email = input("Email:")
-    phonenumber = input("Phonenumber:")
-    user_data = load_user_data()
-    user_data[username] = {"data":{"email": email, "phonenumber": phonenumber}}
-    save_user_data(user_data)
+    while True:
+        email = input("Email:")
+
+        if (re.fullmatch(regex, email)):
+
+            phonenumber = input("Phonenumber:")
+            user_data = load_user_data()
+            user_data[username] = {"data": {"email": email, "phonenumber": phonenumber}}
+            save_user_data(user_data)
+            break
+        else:
+            continue
+    print("User created successfully")
+
 
 def read_user_data(username):
     user_data = load_user_data()

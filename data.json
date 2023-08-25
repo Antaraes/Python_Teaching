@@ -1,1 +1,27 @@
-{"min": {"data": {"email": "min@gmail.com", "phonenumber": "1234"}}}
+{
+    "min": {
+        "data": {
+            "email": "min@gmail.com",
+            "phonenumber": "1234"
+        },
+        "post": [
+            0:{
+                "title": "History of Germany",
+                "body": "Gemay blah blah...."
+            },
+
+        ]
+    },
+    "wwe": {
+        "data": {
+            "email": "wwe@company.com",
+            "phonenumber": "555888222"
+        }
+    },
+    "bhone": {
+        "data": {
+            "email": "bhont@gmail.com",
+            "phonenumber": "234252"
+        }
+    }
+}

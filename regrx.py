@@ -24,7 +24,24 @@ for eachname in names:
 
 import requests
 
-data = requests.get("https://jsonplaceholder.typicode.com/users")
-nameFound = re.findall('dfssdf',data.text)
-if nameFound:
-    print("username found")
+# data = requests.get("https://jsonplaceholder.typicode.com/users")
+# nameFound = re.findall('dfssdf',data.text)
+# if nameFound:
+#     print("username found")
+#
+
+
+# str = "Sat,hat,mat,pat"
+# allStr = re.findall("[shmp]at",str) # with at
+# allStr = re.findall("[shmp]",str) # without at
+# for i in allStr:
+#     print(i)
+
+# email check
+# https://www.geeksforgeeks.org/check-if-email-address-valid-or-not-in-python/
+regex = r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,7}\b'
+email = "mingmail.com"
+if (re.fullmatch(regex,email)):
+    print("Email valid")
+else:
+    print("Email not valid")
