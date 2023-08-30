@@ -2,26 +2,22 @@
     "min": {
         "data": {
             "email": "min@gmail.com",
-            "phonenumber": "1234"
+            "phonenumber": "123",
+            "password": "pass"
         },
-        "post": [
-            0:{
-                "title": "History of Germany",
-                "body": "Gemay blah blah...."
+        "posts": [
+            {
+                "id": "160ad156-ee0d-41d4-8259-bf38c7d7f238",
+                "title": "Test2",
+                "body": "fsovmoewmvow",
+                "url": "https://i.pinimg.com/474x/cf/83/7a/cf837ad98b1ae445b6d7ca828b5afc7c.jpg"
             },
-
+            {
+                "id": "0deea7a1-0d9a-42a5-9ba9-5009d88d925b",
+                "title": "Test1",
+                "body": "sdfdsavmoemw",
+                "url": "https://i.pinimg.com/474x/b7/d3/3d/b7d33db72f29b91c8eb9980ef1ad09b4.jpg"
+            }
         ]
-    },
-    "wwe": {
-        "data": {
-            "email": "wwe@company.com",
-            "phonenumber": "555888222"
-        }
-    },
-    "bhone": {
-        "data": {
-            "email": "bhont@gmail.com",
-            "phonenumber": "234252"
-        }
     }
 }
