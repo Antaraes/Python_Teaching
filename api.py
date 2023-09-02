@@ -44,8 +44,10 @@
 # def write():
 #     with open("data.json", 'w') as f:
 #         json.dump(data,f)
-# write()
+#
 
+
+# Blog System
 
 import json
 import re
